@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: bgColor,
         primarySwatch: Colors.blue,
         fontFamily: "Gordita",
-        appBarTheme: const AppBarTheme(
+        appBarTheme: const AppBarTheme(123
           backgroundColor: Colors.transparent,
           elevation: 0,
         ),
