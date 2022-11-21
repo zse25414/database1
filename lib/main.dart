@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stylish/constants.dart';
+import 'package:stylish/screens/LoginForm.dart';
 import 'package:stylish/screens/home/home_screen.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: bgColor,
         primarySwatch: Colors.blue,
         fontFamily: "Gordita",
-        appBarTheme: const AppBarTheme(123
+        appBarTheme: const AppBarTheme(
           backgroundColor: Colors.transparent,
           elevation: 0,
         ),
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(color: Colors.black54),
         ),
       ),
-      home: const HomeScreen(),
+      home: LoginForm(),
     );
   }
 }

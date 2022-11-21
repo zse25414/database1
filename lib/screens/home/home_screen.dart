@@ -44,8 +44,6 @@ class HomeScreen extends StatelessWidget {
         ),
         body: ListView(
           children: [
-
-
              Container(
                padding: EdgeInsets.only(top: 15),
               decoration: const BoxDecoration(
@@ -80,15 +78,7 @@ class HomeScreen extends StatelessWidget {
                   const PopularProducts(),
                 ],
               ),
-
-
              )
-
-
-
-
-
-
           ],
         ),
         bottomNavigationBar: CurvedNavigationBar(
